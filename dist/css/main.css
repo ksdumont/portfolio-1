@@ -203,6 +203,15 @@ main {
       border-color: #e9917e;
       transition: all 0.5s ease-out; }
 
+#yoga {
+  text-align: center; }
+  #yoga h1 {
+    color: #fff;
+    margin-top: 100px;
+    font-size: 2rem; }
+  #yoga h3 {
+    color: #e9917e; }
+
 #contact {
   text-align: center; }
 
