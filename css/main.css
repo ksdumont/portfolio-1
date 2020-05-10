@@ -208,10 +208,26 @@ main {
   text-align: center; }
   #yoga h1 {
     color: #e9917e;
-    margin-top: 100px;
+    margin-top: 60px;
     font-size: 2rem; }
   #yoga h3 {
     color: #333; }
+  #yoga .youtube h4 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: lighter; }
+  #yoga .youtube .iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0; }
+    #yoga .youtube .iframe-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
 
 #contact {
   text-align: center; }
