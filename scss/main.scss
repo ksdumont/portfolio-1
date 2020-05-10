@@ -140,11 +140,32 @@ main {
   text-align: center;
   h1 {
     color: $secondary-color;
-    margin-top: 100px;
+    margin-top: 60px;
     font-size: 2rem;
   }
   h3 {
     color: #333;
+  }
+  .youtube {
+    h4 {
+      margin-top: 20px;
+      margin-bottom: 5px;
+      color: #333;
+      font-weight: lighter;
+    }
+    .iframe-container {
+      position: relative;
+      width: 100%;
+      padding-bottom: 56.25%;
+      height: 0;
+      iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
 }
 // Contact Page
