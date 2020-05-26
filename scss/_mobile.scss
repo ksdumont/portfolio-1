@@ -44,9 +44,10 @@
 
     .portrait {
       background: url("../img/portrait.jpeg");
-      background-size: 150px 150px;
       width: 150px;
       height: 150px;
+      background-size: cover;
+      background-position: center;
     }
   }
   .about-info {

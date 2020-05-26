@@ -55,9 +55,10 @@
       width: 250px;
       height: 250px;
       background: url("../img/portrait.jpeg");
-      background-size: 250px 250px;
       border-radius: 50%;
-      border: solid 3px #e9917e; }
+      border: solid 3px #e9917e;
+      background-size: cover;
+      background-position: center; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -213,8 +214,8 @@ main {
   #yoga h3 {
     color: #333; }
   #yoga .youtube h4 {
-    margin-top: 20px;
-    margin-bottom: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     color: #333;
     font-weight: lighter; }
   #yoga .youtube .iframe-container {
@@ -305,9 +306,10 @@ main {
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url("../img/portrait.jpeg");
-      background-size: 150px 150px;
       width: 150px;
-      height: 150px; }
+      height: 150px;
+      background-size: cover;
+      background-position: center; }
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
